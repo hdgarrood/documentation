@@ -11,6 +11,7 @@ ouput of the compiler, but in the JSON output in a machine-usable format.
 * [psc-ide-vim](https://github.com/FrigoEU/psc-ide-vim/blob/master/doc/psc-ide-vim.txt#L61)
 * [atom-ide-purescript](https://github.com/nwolverson/atom-ide-purescript#error-suggestions--quick-fix)
 * [vscode-ide-purescript](https://github.com/nwolverson/vscode-ide-purescript)
+* [purescript-language-server](https://github.com/nwolverson/purescript-language-server)
 
 ### Fixable issues
 
