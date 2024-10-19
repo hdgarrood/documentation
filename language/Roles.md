@@ -26,7 +26,7 @@ newtype Shown a = Shown ((Show a => a -> String) -> String)
 
 `Coercible (Shown a) (Shown b)` does not hold, even when `Coercible a b` does.
 
-Inferring a more permissive role would allow to coerce instances dictionnaries, which would threaten _coherence_: we could exhibit multiple type class instances with different behaviour for the same type.
+Inferring a more permissive role would allow to coerce instances dictionaries, which would threaten _coherence_: we could exhibit multiple type class instances with different behaviour for the same type.
 
 ```purescript
 shown :: forall a. Shown a -> String
